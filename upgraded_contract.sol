@@ -5,7 +5,7 @@ import "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol";
 import "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol";
 import "@openzeppelin/contracts-upgradeable/proxy/utils/UUPSUpgradeable.sol";
 
-contract smartContract001 is Initializable, UUPSUpgradeable,  OwnableUpgradeable {
+contract smartcontract is Initializable, UUPSUpgradeable,  OwnableUpgradeable {
     function initialize() initializer public {
             __Ownable_init();
             __UUPSUpgradeable_init();
