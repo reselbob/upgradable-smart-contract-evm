@@ -10,8 +10,7 @@ contract SmartContract is Initializable, UUPSUpgradeable,  OwnableUpgradeable {
             __Ownable_init();
             __UUPSUpgradeable_init();
     }
-
-
+    
     function getSecretHelloMessage()  public pure returns (string memory){
         return "Hello World";
     }
